@@ -25,13 +25,13 @@ Check the README.md in the calculator code directory for instructions on how to 
 
 You need to write unit tests to ensure that the majority of functions in the calculator operate correctly:
 
-	calculator.add()
-	calculator.subtract()
-	calculator.multiply()
-	calculator.divide()
-	calculator.numberClick()
-	calculator.operatorClick()
-	calculator.clearClick()
+	<!-- calculator.add() -->
+	<!-- calculator.subtract() -->
+	<!-- calculator.multiply()
+	calculator.divide() -->
+	<!-- calculator.numberClick()
+	calculator.operatorClick() -->
+	<!-- calculator.clearClick() -->
 
 
 ####The program should correctly perform the following tasks:
