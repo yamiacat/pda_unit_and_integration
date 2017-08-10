@@ -8,7 +8,7 @@
 |Carry out integration testing
 |Check the software meets specified requirements and carry out User Acceptance Testing.
 
-######There is another program in your USB stick.  Copy the files to your desktop and work on these. 
+######There is another program in your USB stick.  Copy the files to your desktop and work on these.
 
 The program is a Javascript calculator to be able to perform simple arithmetic functions in a web browser
 
@@ -32,17 +32,17 @@ You need to write unit tests to ensure that the majority of functions in the cal
 	calculator.numberClick()
 	calculator.operatorClick()
 	calculator.clearClick()
-	
-	
+
+
 ####The program should correctly perform the following tasks:
 
-	multiply 3x5 and get 15
-	divide 21/7 and get 3
-	add 1+4 and get 5
-	subtract 7-4 and get 3
-	concatenate multiple number button clicks
-	chain multiple operations together
-	clear the running total without affecting the calculation
+	<!-- multiply 3x5 and get 15 -->
+	<!-- divide 21/7 and get 3 -->
+	<!-- add 1+4 and get 5 -->
+	<!-- subtract 7-4 and get 3 -->
+	<!-- concatenate multiple number button clicks -->
+	<!-- chain multiple operations together -->
+	<!-- clear the running total without affecting the calculation -->
 
 Save your completed testing file onto the USB drive
 
@@ -66,7 +66,3 @@ If you divide by zero, what is the effect?
 Can you write a test to describe what you'd prefer to happen under this circumstance, and then correct to code to make that test pass.
 
 Save your completed testing file onto the USB drive
-
-
-
-
