@@ -291,5 +291,13 @@ it('should calculate 10000*10000*10000*10000 and get 10000000000000000', functio
 })
 
 ///////TEST DIVIDE BY ZERO
+it('should not be able to divide by zero', function(){
+  running_total = element(by.css('#running_total'))
+  element(by.css('#number1')).click();
+  element(by.css('#operator_divide')).click();  element(by.css('#number0')).click();
+  element(by.css('#operator_equals')).click();
+  expect(running_total.getAttribute('value')).to.eventually.equal('Error!')
+})
+
 
 });
